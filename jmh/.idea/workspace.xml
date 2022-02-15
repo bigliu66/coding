@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b18273b-b257-4e6a-a211-c16750f7da81" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vc4viFa2wdggdfkcOJ11N2xx0P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RunManager" selected="Application.ArrayToListBenchmark">
+    <configuration name="ArrayToListBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lx.jmh.ArrayToListBenchmark" />
+      <module name="jmh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.jmh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringConnectBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lx.jmh.StringConnectBenchmark" />
+      <module name="jmh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.jmh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArrayToListBenchmark" />
+        <item itemvalue="Application.StringConnectBenchmark" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b18273b-b257-4e6a-a211-c16750f7da81" name="Default Changelist" comment="" />
+      <created>1626848275784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626848275784</updated>
+      <workItem from="1626848278735" duration="4986000" />
+      <workItem from="1626923075031" duration="21634000" />
+      <workItem from="1627379490539" duration="6644000" />
+      <workItem from="1627457850925" duration="361000" />
+      <workItem from="1628572679946" duration="3717000" />
+      <workItem from="1644907231096" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="543" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627379554797">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="543" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627379554797" />
+    <state x="523" y="163" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1627365738181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="523" y="163" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627365738181" />
+    <state x="740" y="564" key="EnvironmentVariablesDialog" timestamp="1627377605684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="564" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627377605684" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1627457869182">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627457869182" />
+    <state width="1877" height="665" key="GridCell.Tab.0.bottom" timestamp="1628579691790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="665" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628579691790" />
+    <state width="1877" height="665" key="GridCell.Tab.0.center" timestamp="1628579691790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="665" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628579691790" />
+    <state width="1877" height="665" key="GridCell.Tab.0.left" timestamp="1628579691789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="665" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628579691789" />
+    <state width="1877" height="665" key="GridCell.Tab.0.right" timestamp="1628579691790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="665" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628579691790" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1627379578744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627379578744" />
+  </component>
+</project>
