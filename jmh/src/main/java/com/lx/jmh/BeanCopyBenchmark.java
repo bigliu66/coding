@@ -1,5 +1,8 @@
 package com.lx.jmh;
 
+import com.lx.jmh.entity.User;
+import com.lx.jmh.entity.UserVo;
+import com.lx.jmh.utils.OrikaUtil;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Fork;
@@ -15,11 +18,10 @@ import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
+import org.springframework.beans.BeanUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -33,40 +35,31 @@ import java.util.concurrent.TimeUnit;
 @Threads(4)
 @Fork(3)
 @State(value = Scope.Benchmark)
-@OutputTimeUnit(TimeUnit.NANOSECONDS)
-public class ArrayToListBenchmark {
+@OutputTimeUnit(TimeUnit.MICROSECONDS)
+public class BeanCopyBenchmark {
 
-    // 报错
-    public List testArrayCastToListError() {
-        String[] strArray = new String[2];
-        List list = Arrays.asList(strArray);
-        //对转换后的list插入一条数据
-        list.add("1");
-        return list;
+    @Benchmark
+    public UserVo testBeanUtil() {
+        User user = new User("张三", "1", 20, "vip", "电影、音乐", "18888888888", "***", "***", "军人");
+        UserVo userVo = new UserVo();
+        BeanUtils.copyProperties(user, userVo);
+        userVo.setUsername(user.getName());
+        return userVo;
     }
 
     @Benchmark
-    public ArrayList<String> testArrayCastToListRight() {
-        String[] strArray = new String[2];
-        ArrayList<String> list = new ArrayList<String>(Arrays.asList(strArray));
-        list.add("1");
-        return list;
-    }
-
-    @Benchmark
-    public ArrayList<String> testArrayCastToListEfficient() {
-        String[] strArray = new String[2];
-        ArrayList<String> arrayList = new ArrayList<String>(strArray.length);
-        Collections.addAll(arrayList, strArray);
-        arrayList.add("1");
-        return arrayList;
+    public UserVo testOrika() {
+        User user = new User("张三", "1", 20, "vip", "电影、音乐", "18888888888", "***", "***", "军人");
+        Map<String, String> userMap = new HashMap<>();
+        userMap.put("name", "username");
+        return OrikaUtil.INSTANCE.map(UserVo.class, user, userMap);
     }
 
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
                 // 导入要测试的类
-                .include(ArrayToListBenchmark.class.getSimpleName())
-                .result("D:\\arrayToListResult.json")
+                .include(BeanCopyBenchmark.class.getSimpleName())
+                .result("D:\\beanCopyResult.json")
                 .resultFormat(ResultFormatType.JSON)
                 .build();
 

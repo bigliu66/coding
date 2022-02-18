@@ -3,5 +3,5 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,com/lx/jmh/ArrayToListBenchmark.testArrayCastToListEfficient
-inline,com/lx/jmh/ArrayToListBenchmark.testArrayCastToListRight
+inline,com/lx/jmh/BeanCopyBenchmark.testBeanUtil
+inline,com/lx/jmh/BeanCopyBenchmark.testOrika

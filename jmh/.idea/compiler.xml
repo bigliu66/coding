@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="jmh" target="1.5" />
+      <module name="jmh" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

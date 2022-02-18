@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b18273b-b257-4e6a-a211-c16750f7da81" name="Default Changelist" comment="" />
+    <list default="true" id="3b18273b-b257-4e6a-a211-c16750f7da81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_java_sizeof_0_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ma_glasnost_orika_orika_core_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lx/jmh/BeanCopyBenchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lx/jmh/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lx/jmh/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lx/jmh/entity/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lx/jmh/utils/OrikaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_34.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_34.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jmh.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lx/jmh/ArrayToListBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lx/jmh/ArrayToListBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/ArrayToListBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/ArrayToListBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/StringConnectBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/StringConnectBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_jmhType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_jmhType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_jmhType_B1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_jmhType_B1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_jmhType_B2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_jmhType_B2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_jmhType_B3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_jmhType_B3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_testArrayCastToListEfficient_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_testArrayCastToListEfficient_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_testArrayCastToListRight_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/ArrayToListBenchmark_testArrayCastToListRight_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_jmhType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_jmhType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_jmhType_B1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_jmhType_B1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_jmhType_B2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_jmhType_B2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_jmhType_B3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_jmhType_B3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringAdd_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringAdd_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringBuffer_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringBuffer_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringBuilder_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringBuilder_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringConcat_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringConcat_jmhTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringFormat_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lx/jmh/jmh_generated/StringConnectBenchmark_testStringFormat_jmhTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +61,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1vc4viFa2wdggdfkcOJ11N2xx0P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,17 +75,36 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../canalClient" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ArrayToListBenchmark">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lx.jmh" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BeanCopyBenchmark">
     <configuration name="ArrayToListBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lx.jmh.ArrayToListBenchmark" />
+      <module name="jmh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.jmh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanCopyBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lx.jmh.BeanCopyBenchmark" />
       <module name="jmh" />
       <extension name="coverage">
         <pattern>
@@ -59,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanCopyBenchmark" />
         <item itemvalue="Application.ArrayToListBenchmark" />
         <item itemvalue="Application.StringConnectBenchmark" />
       </list>
@@ -80,6 +153,7 @@
       <workItem from="1627457850925" duration="361000" />
       <workItem from="1628572679946" duration="3717000" />
       <workItem from="1644907231096" duration="79000" />
+      <workItem from="1645077297218" duration="29304000" />
     </task>
     <servers />
   </component>
@@ -87,41 +161,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="543" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627379554797">
+    <state x="592" y="128" key="CommitChangelistDialog2" timestamp="1645167486983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="543" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627379554797" />
-    <state x="523" y="163" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1627365738181">
+    <state x="592" y="128" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1645167486983" />
+    <state x="368" y="102" key="DiffContextDialog" timestamp="1645167455339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="163" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627365738181" />
-    <state x="740" y="564" key="EnvironmentVariablesDialog" timestamp="1627377605684">
+    <state x="368" y="102" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645167455339" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1645085045802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="564" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627377605684" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1627457869182">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1645085045802" />
+    <state width="1877" height="407" key="GridCell.Tab.0.bottom" timestamp="1645165501232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627457869182" />
-    <state width="1877" height="665" key="GridCell.Tab.0.bottom" timestamp="1628579691790">
+    <state width="1877" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645165501232" />
+    <state width="1877" height="407" key="GridCell.Tab.0.center" timestamp="1645165501232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="665" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628579691790" />
-    <state width="1877" height="665" key="GridCell.Tab.0.center" timestamp="1628579691790">
+    <state width="1877" height="407" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645165501232" />
+    <state width="1877" height="407" key="GridCell.Tab.0.left" timestamp="1645165501232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="665" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628579691790" />
-    <state width="1877" height="665" key="GridCell.Tab.0.left" timestamp="1628579691789">
+    <state width="1877" height="407" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645165501232" />
+    <state width="1877" height="407" key="GridCell.Tab.0.right" timestamp="1645165501232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="665" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628579691789" />
-    <state width="1877" height="665" key="GridCell.Tab.0.right" timestamp="1628579691790">
+    <state width="1877" height="407" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645165501232" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1645154622763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="665" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628579691790" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1627379578744">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1645154622763" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1645154622763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627379578744" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1645154622763" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1645154622763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1645154622763" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1645154622763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1645154622763" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1645154361529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1645154361529" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1645165330904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1645165330904" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1645164674490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1645164674490" />
   </component>
 </project>
