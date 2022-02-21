@@ -1,4 +1,4 @@
-package cn.tellsea;
+package lx.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package cn.tellsea.mq;
+package lx.test.mq;
 
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.Exchange;

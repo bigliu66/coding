@@ -13,19 +13,11 @@ RabbitMQ提供了6种消息模型，但是第6种其实是RPC，并不是MQ，�
 
 ## 准备工作
 
-我已经安装好了RabbitMQ，Erlang，RabbitMQ图形界面插件。创建了用户：tellsea，和虚拟主机：/tellsea-host，并设置了使用权，下面给出下载地址。
-
-**相关软件的安装**
+我已经在docker安装好了RabbitMQ
 
 [RabbitMQ官方教程](http://www.rabbitmq.com/getstarted.html)
 
 [RabbitMQ官网下载地址](http://www.rabbitmq.com/download.html)
-
-[Erlang下载地址](http://www.erlang.org/download.html)
-
-[RabbitMQ五种消息模型介绍](https://blog.csdn.net/qq_38762237/article/details/89416444)
-
-或者群文件夹下载，QQ群：957406675
 
 **依赖**
 ```xml
@@ -39,9 +31,14 @@ RabbitMQ提供了6种消息模型，但是第6种其实是RPC，并不是MQ，�
 spring:
   rabbitmq:
     host: 127.0.0.1
-    username: tellsea
-    password: 123456
-    virtual-host: /tellsea-host
+    username: admin
+    password: admin
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 3
+          initial-interval: 1000
 ```
 ## simple消息模型
 
