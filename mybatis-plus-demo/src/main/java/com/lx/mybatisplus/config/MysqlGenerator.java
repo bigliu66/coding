@@ -82,6 +82,7 @@ public class MysqlGenerator {
                         .setEnableCache(false)// XML 二级缓存
                         .setBaseResultMap(true)// XML ResultMap
                         .setBaseColumnList(true)// XML columList
+                        .setSwagger2(true)
                         .setAuthor("lx")
                 // .setKotlin(true) 是否生成 kotlin 代码
                 // 自定义文件命名，注意 %s 会自动填充表实体属性！
@@ -98,7 +99,7 @@ public class MysqlGenerator {
                         .setDriverName("com.mysql.cj.jdbc.Driver")
                         .setUsername("root")
                         .setPassword("root")
-                        .setUrl("jdbc:mysql://localhost:3306/springbucks?characterEncoding=utf8")
+                        .setUrl("jdbc:mysql://localhost:3306/newerp?characterEncoding=utf8&serverTimezone=GMT%2B8")
                 //.setTypeConvert(new MySqlTypeConvert() {
                 //    // 自定义数据库表字段类型转换【可选】
                 //    @Override
@@ -139,7 +140,7 @@ public class MysqlGenerator {
                 // public User setName(String name) {this.name = name; return this;}
                 // .setEntityBuilderModel(true)
                 // 【实体】是否为lombok模型（默认 false）<a href="https://projectlombok.org/">document</a>
-                // .setEntityLombokModel(true)
+                 .setEntityLombokModel(true)
                 // Boolean类型字段是否移除is前缀处理
                 // .setEntityBooleanColumnRemoveIsPrefix(true)
                 // .setRestControllerStyle(true)
@@ -147,7 +148,7 @@ public class MysqlGenerator {
         ).setPackageInfo(
                 // 包配置
                 new PackageConfig()
-                        .setModuleName("user")
+                        .setModuleName("newerp")
                         .setParent("com.lx.mybatisplus")// 自定义包路径
                         .setController("controller")// 这里是控制器包名，默认 web
         ).setCfg(
@@ -161,7 +162,7 @@ public class MysqlGenerator {
                     // 自定义输出文件目录
                     @Override
                     public String outputFile(TableInfo tableInfo) {
-                        return projectPath + "/src/main/resources/mapper/" + tableInfo.getEntityName() + ".xml";
+                        return projectPath + "/src/main/resources/mapper/newerp/" + tableInfo.getEntityName() + "Mapper.xml";
                     }
                 }))
         ).setTemplate(
