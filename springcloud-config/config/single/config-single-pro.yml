@@ -1,0 +1,5 @@
+data:
+  env: config-single-pro
+  user:
+    username: single-client-user
+    password: 123456pro
