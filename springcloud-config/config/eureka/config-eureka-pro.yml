@@ -1,5 +1,0 @@
-data:
-  env: config-eureka-pro
-  user:
-    username: single-client-user
-    password: 123456pro
