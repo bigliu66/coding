@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bigliu66/coding/tree/master/springcloud-demo/config
+          search-paths: single,eureka
+          username: 1063590863@qq.com
+          password: Lx1234123!
