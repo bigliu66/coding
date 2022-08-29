@@ -3,4 +3,4 @@
 
 # 技术栈
 
-springboot、canal、jmh、aop、rabbitmq、mybatis-plus
+spring、springboot、springcloud、canal、jmh、rabbitmq、mybatis-plus

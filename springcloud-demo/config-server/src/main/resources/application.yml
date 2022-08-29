@@ -2,12 +2,28 @@ server:
   port: 8001
 spring:
   application:
-    name: spring-cloud-config-server
+    name: config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/bigliu66/coding/tree/master/springcloud-demo/config
-          search-paths: single,eureka
-          username: 1063590863@qq.com
-          password: Lx1234123!
+          uri: https://github.com/bigliu66/coding.git
+          search-paths: springcloud-demo/config/*
+          username: 
+          password: 
+          skipSslValidation: true
+          default-label: master
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: 123456
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
